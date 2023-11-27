@@ -1,0 +1,37 @@
+[
+  {
+      "title": "Introdução ao Versionamento",
+      "description": "Um sistema de controle de versão, ou VCS, monitora o histórico de alteraçoes à medida que as pessoas e equipes colaboram em projetos em conjunto. Como os desenvolvedores fazem alterações no projeto, qualquer versão anterior do projeto pode ser recuperada a qualquer momento.",
+      "image": "code_version.png"
+  },
+  {
+      "title": "Introdução ao Git",
+      "description": "Git  é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo (Exemplo: alguns livros digitais são disponibilizados no GitHub e escrito aos poucos publicamente). O Git foi inicialmente projetado e desenvolvido por Linus Torvalds para o desenvolvimento do kernel Linux, mas foi adotado por muitos outros projetos.",
+      "image": "git.png"
+  },
+  {
+      "title": "Comandos Básicos do Git",
+      "description": "No fluxo de trabalho básico do Git: você modifica arquivos no seu diretório de trabalho; você prepara os arquivos, adicionando imagens deles à sua área de preparo; você faz commit, o que leva os arquivos como eles estão na área de preparo e armazena essa imagens de forma permanente para o diretório do Git.",
+      "image": "git_cheatsheet.png"
+  },
+  {
+      "title": "Git Fluxos de Trabalho",
+      "description": "Ao utilizar o Git para gerenciar versões de um projeto, é de suma importância definir o fluxo de trabalho (workflow), que irá estabelecer funções específicas para diferentes branches e definir quando elas devem interagir.O Git Flow trabalha com duas branches principais, a Develop e a Master, que duram para sempre; e três branches de suporte, Feature, Release e Hotfix, que são temporários e duram até realizar o merge com as branches principais",
+      "image": "gitflow.svg"
+  },
+  {
+      "title": "Arquivos XML",
+      "description": "Um arquivo XML possui extensão .xml e é constituído de tags, elementos que contém basicamente um nome e seu valor.",
+      "image": "xml.gif"
+  },
+  {
+      "title": "Arquivos JSON",
+      "description": "JSON, um acrônimo de JavaScript Object Notation, é um formato compacto, de padrão aberto independente, de troca de dados simples e rápida (parsing) entre sistemas,que utiliza texto legível a humanos, no formato atributo-valor",
+      "image": "json.png"
+  },
+  {
+      "title": "Arquivos YAML",
+      "description": "O YAML é uma linguagem de serialização de dados muito usada na escrita de arquivos de configuração. .",
+      "image": "yaml.png"
+  }
+]
