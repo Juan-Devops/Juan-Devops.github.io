@@ -1,4 +1,4 @@
-name: configure2
+name: 'configure2'
 
 on:
   push:
