@@ -11,15 +11,15 @@ permissions:
   id-token: write
 
 jobs:
-  update_blog:
+  configure:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v2
 
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v2
       with:
         python-version: 3.8
 
@@ -32,13 +32,13 @@ jobs:
       run: python3 scripts/create_pages.py
 
     - name: Upload Artifact
-      uses: actions/upload-pages-artifact@v4
+      uses: actions/upload-pages-artifact@v2
       with:
         name: blog-artifact
         path: ./docs
 
     - name: Deploy to GitHub Pages
-      uses: actions/deploy-pages@v4
+      uses: actions/deploy-pages@v2
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         artifact_name: blog-artifact
